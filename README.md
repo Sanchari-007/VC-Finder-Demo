@@ -18,7 +18,7 @@ This application is built with a powerful and modern technology stack:
 
   * **Frontend Framework:** [Next.js](https://nextjs.org/) (React Framework for Production)
   * **Styling:** [Tailwind CSS v3](https://tailwindcss.com/) (A utility-first CSS framework for rapid UI development)
-  * **Data Storage (for deployed version):** Supabase (used as the backend database to store the synthetic AI-generated data).
+  * **Data Storage (for deployed version):** [Supabase](https://supabase.com/) (used as the backend database to store the synthetic AI-generated data).
   * **Deployment:** [Vercel](https://vercel.com/)
 
 ## ⚠️ Data Disclaimer
