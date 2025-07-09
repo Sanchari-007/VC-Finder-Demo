@@ -79,8 +79,6 @@ This project was completed within a total of **5 hours**. The development embrac
 
 While this project was built as a qualification task, suggestions for improvements are always welcome\!
 
-## 📞 Contact
+## 📩 Connect with Me!
 
-  * **Your Name:** Sanchari Karati
   * **LinkedIn:** https://www.linkedin.com/in/sanchari-karati
-  * **Email:** rioworkspace70@gmail.com
