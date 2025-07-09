@@ -28,7 +28,7 @@ This application is built with a powerful and modern technology stack:
 ## 🌐 Live Demo
 
 Experience the platform with full dynamic data by visiting the live deployment:
-[**[[VC-Finder-Platform](https://vc-finder-demo.vercel.app/)]**](https://www.google.com/search?q=[(https://vc-finder-demo.vercel.app/)])
+[**[[VC-Finder-Platform](https://vc-finder-demo.vercel.app/)]**]
 
 ## 🚀 Getting Started (Local Development)
 
