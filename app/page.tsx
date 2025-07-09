@@ -1,11 +1,11 @@
 'use client'
 
 import { useState, useEffect } from 'react';
-import { supabase, Industry, VentureCapitalist as BaseVentureCapitalist, VCFirm } from '@/lib/supabase';
+import { supabase, Industry, VentureCapitalist as BaseVentureCapitalist } from '@/lib/supabase';
 
 // Extend VentureCapitalist type to include expertise_level
 type VentureCapitalist = BaseVentureCapitalist & { expertise_level: string };
-import { Search, Mail, Linkedin, Twitter, MapPin, Calendar, DollarSign, User, Star, Building } from 'lucide-react';
+import { Search, Mail, MapPin, Calendar, DollarSign, User, Star, Building } from 'lucide-react';
 
 export default function Home(){
   const [industries, setIndustries] = useState<Industry[]>([]);
@@ -160,11 +160,6 @@ export default function Home(){
                 {vcs.map((vc) => (
                   <div key={vc.id} className="border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow">
                     <div className="flex items-start space-x-4">
-                      <img
-                        src={vc.profile_image_url}
-                        alt={vc.name}
-                        className="w-16 h-16 rounded-full object-cover"
-                      />
                       <div className="flex-1">
                         <div className="flex items-center justify-between mb-2">
                           <h4 className="text-xl font-semibold text-gray-900">{vc.name}</h4>
@@ -232,27 +227,6 @@ export default function Home(){
                               {vc.email}
                             </a>
                           </div>
-
-                          {/* <div className="flex space-x-2">
-                            <a
-                              href={vc.linkedin_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center px-3 py-1 bg-blue-600 text-white rounded text-xs hover:bg-blue-700 transition-colors"
-                            >
-                              <Linkedin className="h-3 w-3 mr-1" />
-                              LinkedIn
-                            </a>
-                            <a
-                              href={vc.twitter_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="flex items-center px-3 py-1 bg-sky-400 text-white rounded text-xs hover:bg-sky-500 transition-colors"
-                            >
-                              <Twitter className="h-3 w-3 mr-1" />
-                              Twitter
-                            </a>
-                          </div> */}
                         </div>
                       </div>
                     </div>
