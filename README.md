@@ -1,6 +1,6 @@
 ## 🚀 Project Overview
 
-This project is a web-based platform developed as a technical qualification task. It demonstrates the ability to create an application that allows users to input an industry and subsequently identify Venture Capitalists (VCs) specializing in that sector. The platform is designed to display comprehensive VC profiles, including what are designed to appear as highly accurate and validated email addresses (within the synthetic data context).
+This project is a web-based platform allows users to input an industry and subsequently identify Venture Capitalists (VCs) specializing in that sector. The platform is designed to display comprehensive VC profiles, including what are designed to appear as highly accurate and validated email addresses (within the synthetic data context).
 
 The primary goal was to deliver a high-quality, functional, and responsive web application, showcasing proficiency in modern web development practices and efficient project execution.
 
